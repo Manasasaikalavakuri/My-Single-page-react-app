@@ -1,0 +1,31 @@
+nav {
+    background-color: #90df9c;
+    overflow: hidden;
+    margin: 5px;;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+  }
+  
+  nav li a:hover {
+    background-color: rgb(230, 173, 220);
+  }
+  
